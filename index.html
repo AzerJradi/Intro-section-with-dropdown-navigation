@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="NavBar">
+      <img src="./images/logo.svg" alt="" class="logo" />
+      <div class="FirstNav">
+        <div class="custom-select">
+          <button class="select-btn">
+            Features
+            <img src="./images/icon-arrow-down.svg" class="arrowDown" alt="" />
+          </button>
+          <ul class="select-list">
+            <li data-value="Todo List">
+              <img src="./images/icon-todo.svg" alt="" class="TodoImg" /> Todo
+              List
+            </li>
+            <li data-value="Calendar">
+              <img src="./images/icon-calendar.svg" alt="" /> Calendar
+            </li>
+            <li data-value="Reminders">
+              <img src="./images/icon-reminders.svg" alt="" /> Reminders
+            </li>
+            <li data-value="Planing">
+              <img src="./images/icon-planning.svg" alt="" /> Planing
+            </li>
+          </ul>
+        </div>
+
+        <div class="custom-select">
+          <button class="select-btn">
+            Company
+            <img src="./images/icon-arrow-down.svg" class="arrowDown" alt="" />
+          </button>
+          <ul class="select-list">
+            <li data-value="Calendar">History</li>
+            <li data-value="Reminders">Our Team</li>
+            <li data-value="Planing">Blog</li>
+          </ul>
+        </div>
+        <p class="NavElement">Careers</p>
+        <p class="NavElement">About</p>
+      </div>
+      <div class="SecNav">
+        <button class="Login">Login</button>
+        <button class="register">Register</button>
+      </div>
+    </div>
+
+    <div class="BigDiv">
+      <div class="BigDivOne">
+        <div class="First">
+          <p class="tilte">
+            Make <br />
+            remote work
+          </p>
+          <p class="desc">
+            Get your team in sync, no matter your location. <br />
+            Streamline processes, create team rituals, and <br />
+            watch productivity soar.
+          </p>
+          <button class="LearnMore">Learn more</button>
+        </div>
+        <div class="AllBrands">
+          <img src="./images/client-databiz.svg" alt="" class="brands" />
+          <img src="./images/client-audiophile.svg" alt="" class="brands" />
+          <img src="./images/client-meet.svg" alt="" class="brands" />
+          <img src="./images/client-maker.svg" alt="" class="brands" />
+        </div>
+      </div>
+
+      <img
+        src="./images/image-hero-desktop.png"
+        alt=""
+        width="30%"
+        class="BigImg"
+      />
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Azer Jradi</a>.
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

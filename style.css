@@ -1,0 +1,176 @@
+:root {
+  background: transparent;
+  --grey: #808080;
+}
+* {
+  background: transparent;
+  background: #fafafa;
+}
+.NavBar {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+}
+.logo {
+  background: transparent;
+  margin-right: 75px;
+}
+.FirstNav {
+  background: transparent;
+  display: flex;
+}
+.NavElement {
+  margin-right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  display: flex;
+  font-weight: bold;
+  color: var(--grey);
+}
+.NavElement:hover {
+  color: black;
+}
+.arrowDown {
+  background: transparent;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.SecNav {
+  background: transparent;
+  margin-left: 40%;
+}
+.Login {
+  background: transparent;
+  border: none;
+  color: var(--grey);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.register {
+  color: var(--grey);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: 2px var(--grey) solid;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-left: 25px;
+}
+.BigDiv {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.BigDivOne {
+  background: transparent;
+}
+.First {
+  background: transparent;
+}
+.tilte {
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 78px;
+  font-weight: bolder;
+}
+.desc {
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27.5px;
+  margin-top: -25px;
+  color: var(--grey);
+}
+.LearnMore {
+  background: transparent;
+  background: black;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  border: 1px black solid;
+}
+.LearnMore:hover {
+  color: black;
+  background: white;
+}
+.AllBrands {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.brands {
+  background: transparent;
+}
+.BigImg {
+  background: transparent;
+}
+.custom-select {
+  position: relative;
+  display: inline-block;
+}
+.select-btn {
+  margin-top: 15.5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  display: flex;
+  font-weight: bold;
+  color: var(--grey);
+}
+.select-btn:hover {
+  color: black;
+}
+.select-list {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: none;
+  list-style: none;
+  box-shadow: 0px 0px 34px 2px rgba(0, 0, 0, 0.33);
+  margin-left: -50px;
+  border-radius: 8px;
+  padding-right: 10px;
+  width: 65%;
+}
+.select-list li {
+  background: white;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: -25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.select-list li:hover {
+  background-color: #f1f1f1;
+}
+
+.custom-select.open .select-list {
+  display: block;
+}
+
+.select-list.open {
+  display: block;
+}
+.attribution {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
